@@ -1,5 +1,5 @@
 
-      body {
+     body {
   background-color:brown;
   text-align: center;
 }
@@ -16,3 +16,14 @@
         color:bisque
       }
 
+#nav {
+  text-transform: uppercase;
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.strong {
+  font-weight: 900;
+}
