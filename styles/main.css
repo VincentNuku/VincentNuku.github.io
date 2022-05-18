@@ -15,6 +15,9 @@
       li { 
         color:bisque
       }
+      a {
+        color:burlywood
+      }
 
 #nav {
   text-transform: uppercase;
