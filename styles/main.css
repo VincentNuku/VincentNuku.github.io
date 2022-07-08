@@ -1,35 +1,149 @@
+  /* body { */
+    /* background-color: brown; */
+    /* text-align: center; */
+  /* } */
 
-     body {
-  background-color:brown;
-  text-align: center;
-}
-      h1 {
-        color: burlywood
-      }
-      h2 {
-        color:burlywood;
-      }
-      h3 {
-        color: burlywood
-      }
-      p {
-        color:blanchedalmond
-      }
-      li { 
-        color:bisque
-      }
-      a {
-        color:burlywood
-      }
+  /* h1 { */
+    /* color: burlywood */
+  /* } */
 
-#nav {
-  text-transform: uppercase;
-list-style: none;
-display: flex;
-align-items: left;
-justify-content: space-around;
-}
+  /* h2 { */
+    /* color: burlywood; */
+  /* } */
 
-.strong {
-  font-weight: 900;
-}
+  /* h3 { */
+    /* color: burlywood */
+  /* } */
+
+  /* p { */
+    /* color: blanchedalmond */
+  /* } */
+
+  /* li { */
+    /* color: bisque */
+  /* } */
+
+  /* a { */
+    /* color: burlywood */
+  /* } */
+
+  /* #nav { */
+    /* text-transform: uppercase; */
+    /* list-style: none; */
+    /* display: flex; */
+    /* align-items: left; */
+    /* justify-content: space-around; */
+  /* } */
+
+  /* .strong { */
+    /* font-weight: 900; */
+  /* } */
+
+  /*Phone*/
+
+  @media only screen and (max-width: 320px) {
+    body {
+      background-color: brown;
+      text-align: center;
+    }
+    h1 {
+      color: burlywood
+    }
+    h2 {
+      color: burlywood;
+    }
+    h3 {
+      color: burlywood
+    }
+    p {
+      color: blanchedalmond
+    }
+    li {
+      color: bisque
+    }
+    a {
+      color: burlywood
+    }
+    #nav {
+      text-transform: uppercase;
+      list-style: none;
+      display: flex;
+      align-items: left;
+      justify-content: space-around;
+    }
+    .strong {
+      font-weight: 1px;
+    }
+  }
+
+  /*Tablet*/
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: brown;
+      text-align: center;
+    }
+    h1 {
+      color: burlywood
+    }
+    h2 {
+      color: burlywood;
+    }
+    h3 {
+      color: burlywood
+    }
+    p {
+      color: blanchedalmond
+    }
+    li {
+      color: bisque
+    }
+    a {
+      color: burlywood
+    }
+    #nav {
+      text-transform: uppercase;
+      list-style: none;
+      display: flex;
+      align-items: left;
+      justify-content: space-around;
+    }
+    .strong {
+      font-weight: 900;
+    }
+        }
+
+ /*laptop*/
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: brown;
+    text-align: center;
+  }
+  h1 {
+    color: burlywood
+  }
+  h2 {
+    color: burlywood;
+  }
+  h3 {
+    color: burlywood
+  }
+  p {
+    color: blanchedalmond
+  }
+  li {
+    color: bisque
+  }
+  a {
+    color: burlywood
+  }
+  #nav {
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+  }
+  .strong {
+    font-weight: 900;
+  }
+}       
