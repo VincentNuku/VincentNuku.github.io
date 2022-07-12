@@ -1,140 +1,33 @@
-  /* body { */
-    /* background-color: brown; */
-    /* text-align: center; */
-  /* } */
-
-  /* h1 { */
-    /* color: burlywood */
-  /* } */
-
-  /* h2 { */
-    /* color: burlywood; */
-  /* } */
-
-  /* h3 { */
-    /* color: burlywood */
-  /* } */
-
-  /* p { */
-    /* color: blanchedalmond */
-  /* } */
-
-  /* li { */
-    /* color: bisque */
-  /* } */
-
-  /* a { */
-    /* color: burlywood */
-  /* } */
-
-  /* #nav { */
-    /* text-transform: uppercase; */
-    /* list-style: none; */
-    /* display: flex; */
-    /* align-items: left; */
-    /* justify-content: space-around; */
-  /* } */
-
-  /* .strong { */
-    /* font-weight: 900; */
-  /* } */
-
-  /*Phone*/
-
-  @media only screen and (max-width: 320px) {
-    body {
-      background-color: brown;
-      text-align: center;
-    }
-    h1 {
-      color: burlywood
-    }
-    h2 {
-      color: burlywood;
-    }
-    h3 {
-      color: burlywood
-    }
-    p {
-      color: blanchedalmond
-    }
-    li {
-      color: bisque
-    }
-    a {
-      color: burlywood
-    }
-    #nav {
-      text-transform: uppercase;
-      list-style: none;
-      display: flex;
-      align-items: left;
-      justify-content: space-around;
-    }
-    .strong {
-      font-weight: 1px;
-    }
+/*320 - phone */
+@media only screen and (max-width: 320px) {
+  body{
+    background-color: darkred;
+    font: 1px;
   }
 
-  /*Tablet*/
-  @media only screen and (max-width: 768px) {
-    body {
-      background-color: brown;
-      text-align: center;
-    }
-    h1 {
-      color: burlywood
-    }
-    h2 {
-      color: burlywood;
-    }
-    h3 {
-      color: burlywood
-    }
-    p {
-      color: blanchedalmond
-    }
-    li {
-      color: bisque
-    }
-    a {
-      color: burlywood
-    }
-    #nav {
-      text-transform: uppercase;
-      list-style: none;
-      display: flex;
-      align-items: left;
-      justify-content: space-around;
-    }
-    .strong {
-      font-weight: 900;
-    }
-        }
+  h1 {font-size: medium;}
+  h2 {font-size: medium;}
+  p { font-size: medium;}
+  ul{ font-size: medium;}
+}
+/*768 - tablet*/
+@media only screen and (max-width: 768px) {
 
- /*laptop*/
+  body{
+    background-color:burlywood;
+    font-size: 40px;
+       }
+
+  h1 {font-size: large;}
+  h2 {font-size: large;}
+  p { font-size: large;}
+  ul{ font-size: large;}
+}
+/*1200 - laptop*/
 @media only screen and (max-width: 1200px) {
-  body {
-    background-color: brown;
-    text-align: center;
-  }
-  h1 {
-    color: burlywood
-  }
-  h2 {
-    color: burlywood;
-  }
-  h3 {
-    color: burlywood
-  }
-  p {
-    color: blanchedalmond
-  }
-  li {
-    color: bisque
-  }
-  a {
-    color: burlywood
+  body{
+    background-color:Brown;
+    font-size: 30px;
   }
   #nav {
     text-transform: uppercase;
@@ -144,6 +37,6 @@
     justify-content: space-around;
   }
   .strong {
-    font-weight: 900;
+    font-weight: 1px;
   }
-}       
+}
