@@ -1,7 +1,7 @@
 /*320 - phone */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (min-width: 250px) {
   body{
-    background-color: darkred;
+    background-color:blueviolet;
     font: 1px;
   }
 
@@ -11,7 +11,7 @@
   ul{ font-size: medium;}
 }
 /*768 - tablet*/
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
 
   body{
     background-color:burlywood;
@@ -24,19 +24,20 @@
   ul{ font-size: large;}
 }
 /*1200 - laptop*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
   body{
     background-color:Brown;
     font-size: 30px;
   }
-  #nav {
-    text-transform: uppercase;
-    list-style: none;
-    display: flex;
-    align-items: left;
-    justify-content: space-around;
-  }
-  .strong {
-    font-weight: 1px;
-  }
 }
+
+/* #nav { */
+  /* text-transform: uppercase; */
+  /* list-style: none; */
+  /* display: flex; */
+  /* align-items: left; */
+  /* justify-content: space-around; */
+/* } */
+/* .strong { */
+  /* font-weight: 1px; */
+/* } */
